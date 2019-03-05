@@ -15,7 +15,7 @@ class TimeStampedModel(models.Model):
 @python_2_unicode_compatible
 class Image(TimeStampedModel):
 
-    """ Image Model """
+    """ ImageModel """
     
     file = models.ImageField()
     location = models.CharField(max_length=140)
